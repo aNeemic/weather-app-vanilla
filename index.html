@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></head>
+<style>
+    .location .city {
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    }
+</style>
+<body>
+    <div class="app-wrapper">
+        <header>
+            <input type="text" autocomplete="off" class="search-box"
+            placeholder="Search for a Location" />
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">West Hartford, CT, USA</div>
+                <div class="date">Sunday August 1 2021</div>
+            </section>
+            <div class="current">
+                <div class="temp">75 <span>°F</span></div>
+                <div class="weather">Showers</div>
+                <div class="hi-low">79°F / 54°F</div>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
